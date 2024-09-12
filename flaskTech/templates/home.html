@@ -125,10 +125,10 @@
         <!-- Pagination -->
         <div class="pagination">
             {% if page > 1 %}
-            <a href="?page={{ page - 1 }}" class="btn btn-primary">Previous Page</a>
+            <a href="?page={{ page - 1 }}" class="btn btn-primary">&larr; Previous Page</a>
             {% endif %}
             {% if (headlines_count > page * page_size) or (recent_news_count > page * page_size) %}
-            <a href="?page={{ page + 1 }}" class="btn btn-primary">Next Page</a>
+            <a href="?page={{ page + 1 }}" class="btn btn-primary">Next Page &rarr;</a>
             {% endif %}
         </div>
     </div>
