@@ -93,6 +93,7 @@
         <h1>Cybersecurity News Headlines ({{ headlines_count }})</h1>
         <div class="row">
             {% for article in headlines %}
+            <a href="{{ article['url'] }}">
             <div class="col-md-3 mb-4">
                 <div class="card">
                     <img src="{{ article['urlToImage'] }}" class="card-img-top" alt="{{ article['title'] }}">
@@ -103,6 +104,7 @@
                     </div>
                 </div>
             </div>
+            </a>
             {% endfor %}
         </div>
 
@@ -110,6 +112,7 @@
         <div class="row">
             {% for article in recent_news %}
             <div class="col-md-3 mb-4">
+                <a href="{{ article['url'] }}">
                 <div class="card">
                     <img src="{{ article['urlToImage'] }}" class="card-img-top" alt="{{ article['title'] }}">
                     <div class="card-body">
@@ -118,6 +121,7 @@
                         <a href="{{ article['url'] }}" class="btn btn-primary read-more-btn" target="_blank">Read More</a>
                     </div>
                 </div>
+                </a>
             </div>
             {% endfor %}
         </div>
