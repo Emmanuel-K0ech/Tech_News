@@ -93,7 +93,7 @@
         <h1>Search Results for "{{ query }}"</h1>
         <div class="row">
             {% for article in search_results %}
-            <a href="{{ article['url'] }}">
+            <a href="{{ article['url'] }}" target="_blank">
             <div class="card my-4 mx-2" style="width: 18rem;">
                 <img src="{{ article['urlToImage'] }}" class="card-img-top" alt="{{ article['title'] }}">
                 <div class="card-body">
