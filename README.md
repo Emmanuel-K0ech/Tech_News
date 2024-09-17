@@ -1,6 +1,10 @@
 # TechNews
 
-TechNews is a web application that allows users to search and browse the latest news articles related to Cybersecurity, using the News API. The application provides a simple interface to filter news by keywords and view results in a paginated format. The news articles are displayed with titles, descriptions, and images, along with links to the full articles.
+TechNews is a web application that allows users to search and browse the latest news articles related to Cybersecurity using the News API. The application provides a simple interface to filter news by keywords and view results in a paginated format. The news articles are displayed with titles, descriptions, and images, along with links to the full articles.
+
+**Author**: Emmanuel Koech  
+**LinkedIn**: [Emmanuel Koech](https://www.linkedin.com/in/emmanuel-koech/)  
+**Deployed Site**: [TechNews Live](https://emmanuelk0ech.pythonanywhere.com/)
 
 ## Table of Contents
 - [TechNews](#technews)
