@@ -1,6 +1,6 @@
 # TechNews
 
-TechNews is a web application that allows users to search and browse the latest news articles related to various topics, using the News API. The application provides a simple interface to filter news by keywords and view results in a paginated format. The news articles are displayed with titles, descriptions, and images, along with links to the full articles.
+TechNews is a web application that allows users to search and browse the latest news articles related to Cybersecurity, using the News API. The application provides a simple interface to filter news by keywords and view results in a paginated format. The news articles are displayed with titles, descriptions, and images, along with links to the full articles.
 
 ## Table of Contents
 - [TechNews](#technews)
@@ -32,12 +32,12 @@ TechNews is a web application that allows users to search and browse the latest 
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/technews.git
+    git clone https://github.com/Emmanuel-K0ech/Tech_News.git
     cd technews
     ```
 
 2. **Open the application**:
-   Simply open the `index.html` file in your web browser.
+   Simply open the `home.html` file in your web browser.
 
 3. **Set Up API Key**:
    - Replace `YOUR_API_KEY_HERE` in the JavaScript code with your News API key.
