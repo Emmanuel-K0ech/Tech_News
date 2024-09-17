@@ -26,7 +26,7 @@ TechNews is a web application that allows users to search and browse the latest 
 ## Demo
 
 ![TechNews Demo](/flaskTech/static/images/WelcomePage.png)  
-![TechNews Demo](/flaskTech/static/images/TechNews-Application.png) 
+![TechNews Demo](flaskTech/static/images/TechNews-Appplication.png) 
 
 ## Installation
 
